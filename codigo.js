@@ -4,7 +4,7 @@ function agregar(dato){
     pantalla.value += dato
 }
 
-function Eliminar(){
+function eliminar(){
     pantalla.value = "";
 }
 
