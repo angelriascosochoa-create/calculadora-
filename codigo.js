@@ -11,3 +11,4 @@ function Eliminar(){
 function calcular(){
     pantalla.value
 }
+
