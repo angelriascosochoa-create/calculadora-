@@ -9,6 +9,6 @@ function Eliminar(){
 }
 
 function calcular(){
-    pantalla.value
+    pantalla.value = eval(pantalla.value);
 }
 
