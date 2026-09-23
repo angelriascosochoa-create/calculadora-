@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
      <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-     <input type="text" id="Pantalla" readonly>  
-    <button onclick="agregar(1)">1</button>
-    <button onclick="agregar(2)">2</button>
-    <button onclick="agregar(3)">3</button>
-    <button onclick="agregar(4)">4</button>
-    <button onclick="agregar(5)">5</button>
-    <button onclick="agregar(6)">6</button>
-    <button onclick="agregar(7)">7</button>
-    <button onclick="agregar(8)">8</button>
-    <button onclick="agregar(9)">9</button>
-    <button onclick="agregar(0)">0</button>
-    <button onclick="agregar('*')">*</button>
-    <button onclick="calcular()">=</button>
-    <button onclick="eliminar()">eliminar</button>
+     <input type="text" id="Pantalla" readonly>
+     <button onclick="agregar(1)">1</button>
+     <button onclick="agregar(2)">2</button>
+     <button onclick="agregar(3)">3</button>
+     <button onclick="agregar(4)">4</button>
+     <button onclick="agregar(5)">5</button>
+     <button onclick="agregar(6)">6</button>
+     <button onclick="agregar(7)">7</button>
+     <button onclick="agregar(8)">8</button>
+     <button onclick="agregar(9)">9</button>
+     <button onclick="agregar(0)">0</button>
+     <button onclick="agregar('*')">*</button>
+     <button onclick="calcular()">=</button>
+     <button onclick="eliminar()">eliminar</button>
 
 
-     <a href="suma.html">suma</a> 
+     <a href="suma.html">suma</a>
      <a href="resta.html">Resta</a>
-      <a href="multiplicacion.html">Multiplicación</a>
-      <a href="division.html">División</a>
+     <a href="multiplicacion.html">Multiplicación</a>
+     <a href="division.html">División</a>
+
+     <h1>¿Qué es la multiplicación?</h1>
+     <p>La multiplicación es una operación matemática que consiste en sumar un número tantas veces como indica otro
+          número. Se representa con el símbolo "*" y se utiliza para calcular el producto de dos o más números. Por
+          ejemplo, si tenemos 3 grupos de 4 manzanas cada uno, la multiplicación sería 3 * 4 = 12, lo que significa que
+          ahora tenemos un total de 12 manzanas.</p>
+
+     <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+               <div class="carousel-item active">
+                    <img src="https://matesdeprimaria.es/tablas/tablas_mini/multiplicacion_2x2.jpg" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                    <img src="https://neoparaiso.com/imprimir/ejercicios-multiplicacion/ejercicios-tablas-multiplicacion.png" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxPt_RKyywkOm1INSyZobkxjRz3nWOi-r-4BlWZ69ow&s=10" class="d-block w-100" alt="...">
+               </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+          </button>
+     </div>
 
 
      <script src="multiplicacion.js">Pantalla</script>
 </body>
+
 </html>
